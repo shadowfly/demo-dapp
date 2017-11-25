@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  font-size: 1.0rem;
+  font-weight: 300;
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.col-pane {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.left-upper-pane {
+  -webkit-clip-path: polygon(0 100%, 100% 0, 0 0);
+  clip-path: polygon(0 100%, 100% 0, 0 0);
+  padding-top: 57.735026918%;    
+}
+
+.right-upper-pane {
+  -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  padding-top: 57.735026918%;    
+}
+
+.left-lower-pane {
+  -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  padding-top: 57.735026918%;    
+}
+
+.right-lower-pane {
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  padding-top: 57.735026918%;    
+}
+
+.hero-section {
+  background-color: #455d75;
+}
+
+.hero-devices {
+  width: 393px;
+  height: 556px;
+  object-fit: contain;
+  z-index: 100;
+  position: relative;
+  top: 300px;
+}
+
+.platform-section .left-upper-pane,
+.platform-section .right-upper-pane {
+  background-color: #455d75;
+}
+
+.partners-section .left-lower-pane,
+.partners-section .right-lower-pane {
+  background-color: #f7f9fb;
+}
+
+.use-cases-section {
+  background-color: #f7f9fb;
+}
+
+.middlemen-section {
+  background-color: #f7f9fb;
+}
+
+.features-section .left-upper-pane,
+.features-section .right-upper-pane {
+  background-color: #f7f9fb;
+}
+
+.technology-section .left-lower-pane,
+.technology-section .right-lower-pane {
+  background-color: #f7f9fb;
+}
+
+.roadmap-section {
+  background-color: #f7f9fb;
+}
+
+.roadmap-section .right-lower-pane {
+  background-color: #ffffff;
+}
+
+.press-section {
+  background-color: #f7f9fb;
+}
+
+.dark-footer {
+  background-color: #2e3f53;
+  height: 522px;
+}
