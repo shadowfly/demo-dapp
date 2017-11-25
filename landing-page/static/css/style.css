@@ -10,6 +10,20 @@ body {
   font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+.foreground-content {
+  /* Temporary hack to make things more visible */
+  min-height: 630px;
+  z-index: 100;
+}
+
+.container-panes {
+  position: relative;
+}
+
+.background-panes {
+  position: absolute;
+}
+
 .col-pane {
   padding-left: 0;
   padding-right: 0;
@@ -36,7 +50,7 @@ body {
 .right-lower-pane {
   -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
   clip-path: polygon(0 100%, 100% 0, 100% 100%);
-  padding-top: 57.735026918%;    
+  padding-top: 57.735026918%;
 }
 
 .hero-section {
@@ -48,9 +62,9 @@ body {
   height: 556px;
   object-fit: contain;
   z-index: 100;
-  position: relative;
+/*  position: relative;
   top: 300px;
-}
+*/}
 
 .platform-section .left-upper-pane,
 .platform-section .right-upper-pane {
