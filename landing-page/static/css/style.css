@@ -65,6 +65,10 @@ body {
 
 .hero-section {
   background-color: #455d75;
+  /* dot background */
+  background: -webkit-linear-gradient(left, #455d75 78px, transparent 1%) center, -webkit-linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
+  background: linear-gradient(90deg, #455d75 78px, transparent 1%) center, linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
+  background-size: 80px 80px;
 }
 
 .hero-devices {
@@ -78,7 +82,11 @@ body {
 
 .platform-section .left-upper-pane,
 .platform-section .right-upper-pane {
-  background-color: #455d75;
+  /*background-color: #455d75;*/
+  /* dot background */
+  background: -webkit-linear-gradient(left, #455d75 78px, transparent 1%) center, -webkit-linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
+  background: linear-gradient(90deg, #455d75 78px, transparent 1%) center, linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
+  background-size: 80px 80px;
 }
 
 .partners-section .left-lower-pane,
