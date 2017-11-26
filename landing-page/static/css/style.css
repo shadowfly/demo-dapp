@@ -10,6 +10,10 @@ body {
   font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+section {
+  border:1px solid red;
+}
+
 .foreground-content {
   /* Temporary hack to make things more visible */
   min-height: 630px;
@@ -22,6 +26,11 @@ body {
 
 .background-panes {
   position: absolute;
+  min-height: 100%;
+}
+.offset-panes {
+  position: relative;
+  margin-top: -42.264973082%; 
 }
 
 .col-pane {
@@ -44,7 +53,7 @@ body {
 .left-lower-pane {
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
   clip-path: polygon(0 100%, 0 0, 100% 100%);
-  padding-top: 57.735026918%;    
+  padding-top: 57.735026918%;
 }
 
 .right-lower-pane {
