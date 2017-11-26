@@ -10,9 +10,9 @@ body {
   font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-section {
+/*section {
   border:1px solid red;
-}
+}*/
 
 .foreground-content {
   /* Temporary hack to make things more visible */
@@ -28,9 +28,10 @@ section {
   position: absolute;
   min-height: 100%;
 }
+
 .offset-panes {
   position: relative;
-  margin-top: -42.264973082%; 
+  margin-top: -42.264973082%;
 }
 
 .col-pane {
