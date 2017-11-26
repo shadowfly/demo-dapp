@@ -14,6 +14,11 @@ body {
   border:1px solid red;
 }*/
 
+.row-pane {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .foreground-content {
   /* Temporary hack to make things more visible */
   min-height: 630px;
