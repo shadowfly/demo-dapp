@@ -1,6 +1,8 @@
 html {
   height: 100%;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -10,23 +12,71 @@ body {
   font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-/*section {
-  border:1px solid red;
-}*/
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 40px auto;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin: 20px auto;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin: 20px auto;
+}
+
+section {
+  border: 1px solid red;
+}
+
+.hero-section .foreground-content {
+  border: 1px solid blue;
+}
+
+.platform-section .foreground-content {
+  border: 1px solid black;
+}
+
+.partners-section .foreground-content {
+  border: 1px solid orange;
+}
+
+.use-cases-section .foreground-content {
+  border: 1px solid purple;
+}
+
+.middlemen-section .foreground-content {
+  border: 1px solid green;
+}
+
+.features-section .foreground-content {
+  border: 1px solid brown;
+}
 
 .row-pane {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.foreground-content {
-  /* Temporary hack to make things more visible */
-  min-height: 630px;
-  z-index: 100;
-}
-
 .container-panes {
   position: relative;
+}
+
+.col-pane {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .background-panes {
@@ -39,9 +89,9 @@ body {
   margin-top: -42.264973082%;
 }
 
-.col-pane {
-  padding-left: 0;
-  padding-right: 0;
+.foreground-content {
+  position: relative;
+  z-index: 100;
 }
 
 .left-upper-pane {
@@ -68,27 +118,52 @@ body {
   padding-top: 57.735026918%;
 }
 
+.btn-container {
+  margin: 30px auto;
+}
+
+.btn {
+  border-radius: 24px;
+  font-size: 1.125rem;
+}
+
+.img-container {
+  margin: 0px auto;
+  text-align: center;
+  max-width: 320px;
+}
+
+.img-container img {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
 .hero-section {
-  background-color: #455d75;
-  /* dot background */
   background: -webkit-linear-gradient(left, #455d75 78px, transparent 1%) center, -webkit-linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
   background: linear-gradient(90deg, #455d75 78px, transparent 1%) center, linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
   background-size: 80px 80px;
 }
 
-.hero-devices {
-  width: 393px;
-  height: 556px;
-  object-fit: contain;
-  z-index: 100;
-/*  position: relative;
-  top: 300px;
-*/}
+.hero-section .foreground-content {
+  top: 160px;
+}
+
+.hero-section h1 {
+  font-weight: 200;
+  color: #ffffff;
+}
+
+.hero-section p {
+  color: #ffffff;
+}
+
+.platform-section .platform-graphic {
+  margin: 200px auto 40px auto;
+}
 
 .platform-section .left-upper-pane,
 .platform-section .right-upper-pane {
-  /*background-color: #455d75;*/
-  /* dot background */
   background: -webkit-linear-gradient(left, #455d75 78px, transparent 1%) center, -webkit-linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
   background: linear-gradient(90deg, #455d75 78px, transparent 1%) center, linear-gradient(#455d75 78px, transparent 1%) center, #6f8294;
   background-size: 80px 80px;
@@ -132,4 +207,36 @@ body {
 .dark-footer {
   background-color: #2e3f53;
   height: 522px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+  .hero-section .foreground-content {
+    top: 260px;
+  }
+  .hero-devices {
+    left: 30px;
+  }
+  .platform-section {
+    min-height: 720px;
+  }
+  .platform-section .foreground-content {
+    top: 180px;
+  }
+  .partners-section {
+  }
+  .partners-section .foreground-content {
+    top: 50px;
+  }
 }
