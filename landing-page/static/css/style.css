@@ -1,3 +1,32 @@
+/*.hero-section .foreground-content {
+  border: 1px solid blue;
+}
+
+.platform-section .foreground-content {
+  border: 1px solid black;
+}
+
+.partners-section .foreground-content {
+  border: 1px solid orange;
+}
+
+.use-cases-section .foreground-content {
+  border: 1px solid purple;
+}
+
+.middlemen-section .foreground-content {
+  border: 1px solid green;
+}
+
+.features-section .foreground-content {
+  border: 1px solid brown;
+}
+
+section {
+  border: 1px solid red;
+}
+*/
+
 html {
   height: 100%;
   font-size: 16px;
@@ -37,32 +66,22 @@ p {
   margin: 20px auto;
 }
 
-section {
-  border: 1px solid red;
+.navbar-light {
+  padding-top: 60px;
+  background-color: #455d75;
 }
 
-.hero-section .foreground-content {
-  border: 1px solid blue;
+.navbar-light .nav-item {
+  font-size: 0.875rem;
+  padding: 20px 40px;
 }
 
-.platform-section .foreground-content {
-  border: 1px solid black;
+.navbar-light .nav-item a {
+  color: #ffffff !important;
 }
 
-.partners-section .foreground-content {
-  border: 1px solid orange;
-}
-
-.use-cases-section .foreground-content {
-  border: 1px solid purple;
-}
-
-.middlemen-section .foreground-content {
-  border: 1px solid green;
-}
-
-.features-section .foreground-content {
-  border: 1px solid brown;
+.hero-section {
+  margin-top: -120px;
 }
 
 .row-pane {
@@ -127,13 +146,13 @@ section {
   font-size: 1.125rem;
 }
 
-.img-container {
+.img-graphic {
   margin: 0px auto;
   text-align: center;
   max-width: 320px;
 }
 
-.img-container img {
+.img-graphic img {
   max-width: 100%;
   object-fit: contain;
   position: relative;
@@ -182,6 +201,15 @@ section {
   background-color: #f7f9fb;
 }
 
+.img-feature {
+  width: 48px;
+  text-align: left;
+}
+
+.feature-description {
+  font-size: 0.875rem;
+}
+
 .features-section .left-upper-pane,
 .features-section .right-upper-pane {
   background-color: #f7f9fb;
@@ -206,8 +234,41 @@ section {
 
 .dark-footer {
   background-color: #2e3f53;
-  height: 522px;
+  padding: 60px 0px;
+  min-height: 522px;
 }
+
+footer .logo-container {
+  margin: 40px auto;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+
+footer .footer-header {
+  margin: 40px auto 15px auto;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+footer .footer-links {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+footer .footer-link {
+  margin: 15px auto;
+  font-size: 0.875rem;
+}
+
+footer .footer-link a {
+  color: #ffffff;
+}
+
 
 @media (min-width: 576px) and (max-width: 767px) {
 
